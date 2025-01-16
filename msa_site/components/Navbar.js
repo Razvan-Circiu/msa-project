@@ -21,9 +21,6 @@ export default function Navbar() {
                     <Link href="/chat/chat">Community Chat</Link>
                 </li>
                 <li>
-                    <Link href="/profile">Profile</Link>
-                </li>
-                <li>
                     <Link href="/about">About Us</Link>
                 </li>
             </ul>
