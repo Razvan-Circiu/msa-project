@@ -1,0 +1,70 @@
+/* Buttons */
+button {
+    padding: 0.75rem 1.5rem;
+    background-color: #6A19B5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+button:hover {
+    background-color: #A963EA;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Outline Button Variant */
+button.outline {
+    background-color: transparent;
+    color: #6A19B5;
+    border: 2px solid #6A19B5;
+}
+
+button.outline:hover {
+    background-color: #6A19B5;
+    color: white;
+}
+
+/* Gradient Button Variant */
+button.gradient {
+    background: linear-gradient(45deg, #6A19B5, #A963EA);
+    border: none;
+}
+
+button.gradient:hover {
+    background: linear-gradient(45deg, #A963EA, #6A19B5);
+}
+
+/* Icon Buttons */
+button.icon {
+    padding: 0.75rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+/* Disabled Button */
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+button:disabled:hover {
+    background-color: #ccc;
+}
