@@ -1,0 +1,12 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/chat/chat": "pages/chat/chat.js",
+  "/listings/listings": "pages/listings/listings.js",
+  "/listings/add-listing": "pages/listings/add-listing.js",
+  "/centers": "pages/centers.js",
+  "/profile": "pages/profile.js",
+  "/about": "pages/about.js"
+}

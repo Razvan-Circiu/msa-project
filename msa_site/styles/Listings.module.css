@@ -1,0 +1,105 @@
+.container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.grid {
+    display: flex; /* Use flexbox for a single column layout */
+    flex-direction: column; /* Stack items vertically */
+    gap: 1rem; /* Space between cards */
+    margin-top: 1rem; /* Reduced from 2rem */
+    align-items: center; /* Center cards horizontally */
+    padding: 0 1rem; /* Add some padding to prevent cards from touching the edges */
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #F5E6FF;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 300px; /* Optional: Set a max-width for the cards */
+    width: 100%; /* Ensure cards take full width */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imageContainer {
+    width: 100%;
+    height: 200px; /* Set a fixed height */
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details {
+    padding: 0.5rem; /* Reduced from 1rem */
+    text-align: center;
+}
+
+.details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.details p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0.25rem 0;
+}
+
+.viewDetailsButton {
+    display: inline-block;
+    margin-top: 0.5rem; /* Reduced from 1rem */
+    padding: 0.5rem 1rem;
+    background-color: #6A19B5;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.viewDetailsButton:hover {
+    background-color: #A963EA;
+}
+
+.addListingButton {
+    display: inline-block;
+    margin-bottom: 1rem; /* Reduced from 2rem */
+    padding: 0.5rem 1rem;
+    background-color: #6A19B5;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.addListingButton:hover {
+    background-color: #A963EA;
+}

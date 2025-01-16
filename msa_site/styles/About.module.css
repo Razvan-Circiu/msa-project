@@ -1,0 +1,75 @@
+.container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Light purple box for the team description */
+.teamBox {
+    background-color: #F5E6FF; /* Light purple background */
+    border: 1px solid #6A19B5; /* Purple border */
+    border-radius: 12px; /* Rounded corners */
+    padding: 1.5rem;
+    margin: 2rem 0;
+    text-align: center; /* Center the text */
+    color: #333; /* Dark text for contrast */
+}
+
+.teamBox p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.teamBox strong {
+    color: #6A19B5; /* Purple color for names */
+}
+
+/* Centered contact information */
+.contactInfo {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.contactInfo h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.contactInfo p {
+    color: #555; /* Dark gray for the contact text */
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.contactInfo ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contactInfo li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.contactInfo a {
+    color: #6A19B5; /* Purple color for links */
+    text-decoration: none;
+}
+
+.contactInfo a:hover {
+    text-decoration: underline;
+}
