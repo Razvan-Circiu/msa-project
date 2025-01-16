@@ -1,0 +1,87 @@
+.container {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.teamBox {
+    background-color: #F5E6FF;
+    border: 1px solid #6A19B5;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    text-align: center;
+    color: #333;
+}
+
+.teamBox p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.teamBox strong {
+    color: #6A19B5;
+}
+
+.contactInfo {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.contactInfo h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.contactInfo p {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.contactInfo ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contactInfo li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.contactInfo a {
+    color: #6A19B5;
+    text-decoration: none;
+}
+
+.contactInfo a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 0.5rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .teamBox {
+        padding: 1rem;
+    }
+}

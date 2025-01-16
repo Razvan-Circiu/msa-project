@@ -1,0 +1,139 @@
+.container {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.addPostButton {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #6A19B5;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.addPostButton:hover {
+    background-color: #A963EA;
+}
+
+.postForm {
+    margin-bottom: 2rem;
+}
+
+.postForm input,
+.postForm textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.postForm textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.postForm button {
+    padding: 0.5rem 1rem;
+    background-color: #6A19B5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+}
+
+.postForm button:hover {
+    background-color: #A963EA;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.post {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+.post h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.post p {
+    color: #555;
+}
+
+.comments {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    border-left: 2px solid #ddd;
+}
+
+.comment {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.commentForm {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.commentForm input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.commentForm button {
+    padding: 0.5rem 1rem;
+    background-color: #6A19B5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.commentForm button:hover {
+    background-color: #A963EA;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 0.5rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .postForm button {
+        width: 100%;
+    }
+}
